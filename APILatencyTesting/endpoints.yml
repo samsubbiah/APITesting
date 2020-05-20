@@ -1,0 +1,13 @@
+- target:
+    url: http://localhost:8080//farm/home/accessDate
+    method: POST
+    body: ''
+    header:
+      Content-Type:
+        - application/json
+  query_parameters:
+    threads: 2
+    max_threads: 2
+    connections: 12
+    duration: 10s
+    request_rate: 500
